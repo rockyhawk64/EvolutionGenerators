@@ -1,0 +1,20 @@
+panels:
+  EvolutionGenerators_Main:
+    perm: default
+    rows: HOPPER
+    empty: GLASS_PANE
+    item:
+      '0':
+        material: GENERATOR_ITEM 1
+      '1':
+        material: GENERATOR_ITEM 2
+      '2':
+        material: GENERATOR_ITEM 3
+      '3':
+        material: GENERATOR_UPGRADE
+      '4':
+        material: REDSTONE
+        stack: 1
+        name: '&cExit Generator'
+        commands:
+          - cpc

@@ -1,0 +1,39 @@
+name: EvolutionGenerators
+main: me.rockyhawk.evolutiongenerators.EvolutionGenerators
+author: RockyHawk
+version: 1.2.1.4
+api-version: '1.13'
+description: Generate any item with a generator!
+depend: [CommandPanels]
+commands:
+   egen:
+      description: Main command for the plugin
+      usage: /egen [args] [player:args]
+   gears:
+      description: Main currency for the plugin
+      usage: /gears [player:args] [player]
+permissions:
+   egenerators.admin:
+      default: op
+   egenerators.use:
+      default: true
+   egenerators.help:
+      default: true
+   egenerators.version:
+      default: true
+   egenerators.lock.on:
+      default: true
+   egenerators.lock.off:
+      default: true
+   egenerators.reload:
+      default: op
+   egenerators.item:
+      default: op
+   egenerators.list:
+      default: op
+   egenerators.list.others:
+      default: op
+   egenerators.gears.balance:
+      default: true
+   egenerators.gears.balance.others:
+      default: true

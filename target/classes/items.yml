@@ -1,0 +1,17 @@
+generated-items:
+  Coal:
+    material: COAL
+  Iron:
+    material: IRON_INGOT
+  Diamond:
+    material: DIAMOND
+spawner-blocks:
+  Coal:
+    material: COAL_BLOCK
+    name: "&7>> &8Coal Generator &7<<"
+  Iron:
+    material: IRON_BLOCK
+    name: "&7>> &fIron Generator &7<<"
+  Diamond:
+    material: DIAMOND_BLOCK
+    name: "&b>> &3Diamond Generator &b<<"

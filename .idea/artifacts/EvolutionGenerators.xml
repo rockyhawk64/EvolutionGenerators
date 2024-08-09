@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EvolutionGenerators">
+    <output-path>$PROJECT_DIR$/out/artifacts/EvolutionGenerators</output-path>
+    <root id="archive" name="EvolutionGenerators.jar">
+      <element id="module-output" name="RockysGenerators" />
+    </root>
+  </artifact>
+</component>

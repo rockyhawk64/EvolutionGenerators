@@ -1,0 +1,71 @@
+# |----------------------------------------------------------------------------
+# |                      Evolution Generators Config File
+# |                             By RockyHawk v3.0
+# | https://www.spigotmc.org/resources/evolution-generators-custom-items.81715/
+# |----------------------------------------------------------------------------
+format:
+   tag: '&8[&bEvolution Generators&8]'
+   asPlayer: '&cPlease execute command as a Player.'
+   noperms: '&cNo permission.'
+   notPlayer: '&cPlayer not found.'
+   nogen: '&cGenerator not found.'
+   empty-list: '&cLooks empty here.'
+upgrade:
+   upgraded: '&aGenerator has been upgraded!'
+lock:
+   already-locked: '&cGenerator already locked!'
+   already-unlocked: '&cGenerator already unlocked!'
+   locked: '&aGenerator locked!'
+   unlocked: '&aGenerator unlocked!'
+   override: '&aOverriding lock!'
+gears:
+   amount: '&7You have &a%gears% &7Gears.'
+   other: '&7%player% &7has &a%gears% &7Gears.'
+   give: '&7%player% &7has received &a%gears% &7Gears.'
+   remove: '&7Removed &c%gears% &7Gears from %player%.'
+   insufficient: '&cNot enough Gears!'
+title:
+   layout: '&b%contents%&3/%max% &8| &b%percentage%%'
+config:
+   version: 3.0
+   lock-when-placed: false
+   economy-type: GEARS
+   generate-distance: 12
+limit:
+   player-message: '&cYour max generator limit has been reached!'
+   chunk-message: '&cZChunk max generator limit reached!'
+   player-generators: -1
+   chunk-generators: -1
+generators:
+   Coal:
+      block: BEACON
+      speed: 100
+      sounds:
+         generate: ENTITY_CHICKEN_EGG
+      particles:
+         generate: SWEEP_ATTACK
+      upgrades:
+         2:
+            price: 3
+            slots-increase: 1
+            speed-increase: 20
+         3:
+            price: 3
+            speed-increase: 20
+   Iron:
+      block: BEACON
+      speed: 500
+      sounds:
+         generate: ENTITY_CHICKEN_EGG
+      particles:
+         placed: SPELL_INSTANT
+         generate: SWEEP_ATTACK
+   Diamond:
+      block: DIAMOND_BLOCK
+      speed: 1000
+      sounds:
+         placed: BLOCK_CONDUIT_ACTIVATE
+         removed: BLOCK_CONDUIT_DEACTIVATE
+         generate: ENTITY_CHICKEN_EGG
+      particles:
+         generate: SWEEP_ATTACK
